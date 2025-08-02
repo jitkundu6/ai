@@ -36,3 +36,6 @@ libmagic==1.0
 python-magic==0.4.27
 unstructured==0.18.11
 unstructured-client==0.42.0
+protobuf==4.25.3
+langchain_experimental
+pymysql
