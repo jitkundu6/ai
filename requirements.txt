@@ -32,3 +32,7 @@ tavily-python>=0.3.3
 streamlit==1.47.1
 google_search_results==2.4.2
 faiss-cpu==1.11.0
+libmagic==1.0
+python-magic==0.4.27
+unstructured==0.18.11
+unstructured-client==0.42.0
