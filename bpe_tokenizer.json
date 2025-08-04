@@ -1,0 +1,335 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "[UNK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "[PAD]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 2,
+      "content": "[CLS]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 3,
+      "content": "[SEP]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 4,
+      "content": "[MASK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": {
+    "type": "Sequence",
+    "normalizers": [
+      {
+        "type": "Lowercase"
+      }
+    ]
+  },
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": "[UNK]",
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "[UNK]": 0,
+      "[PAD]": 1,
+      "[CLS]": 2,
+      "[SEP]": 3,
+      "[MASK]": 4,
+      "a": 5,
+      "b": 6,
+      "c": 7,
+      "d": 8,
+      "e": 9,
+      "f": 10,
+      "g": 11,
+      "h": 12,
+      "i": 13,
+      "k": 14,
+      "l": 15,
+      "m": 16,
+      "n": 17,
+      "o": 18,
+      "p": 19,
+      "r": 20,
+      "s": 21,
+      "t": 22,
+      "w": 23,
+      "x": 24,
+      "z": 25,
+      "at": 26,
+      "bp": 27,
+      "in": 28,
+      "is": 29,
+      "le": 30,
+      "mp": 31,
+      "bpe": 32,
+      "mple": 33,
+      "ar": 34,
+      "ain": 35,
+      "ample": 36,
+      "ch": 37,
+      "cr": 38,
+      "de": 39,
+      "en": 40,
+      "ex": 41,
+      "fr": 42,
+      "his": 43,
+      "io": 44,
+      "iz": 45,
+      "imple": 46,
+      "ken": 47,
+      "mo": 48,
+      "of": 49,
+      "om": 50,
+      "oken": 51,
+      "rain": 52,
+      "scr": 53,
+      "simple": 54,
+      "this": 55,
+      "token": 56,
+      "train": 57,
+      "we": 58,
+      "atch": 59,
+      "atio": 60,
+      "ing": 61,
+      "are": 62,
+      "del": 63,
+      "example": 64,
+      "from": 65,
+      "izatio": 66,
+      "model": 67,
+      "scratch": 68,
+      "tokenizatio": 69,
+      "training": 70,
+      "tokenization": 71
+    },
+    "merges": [
+      [
+        "a",
+        "t"
+      ],
+      [
+        "b",
+        "p"
+      ],
+      [
+        "i",
+        "n"
+      ],
+      [
+        "i",
+        "s"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "m",
+        "p"
+      ],
+      [
+        "bp",
+        "e"
+      ],
+      [
+        "mp",
+        "le"
+      ],
+      [
+        "a",
+        "r"
+      ],
+      [
+        "a",
+        "in"
+      ],
+      [
+        "a",
+        "mple"
+      ],
+      [
+        "c",
+        "h"
+      ],
+      [
+        "c",
+        "r"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "e",
+        "n"
+      ],
+      [
+        "e",
+        "x"
+      ],
+      [
+        "f",
+        "r"
+      ],
+      [
+        "h",
+        "is"
+      ],
+      [
+        "i",
+        "o"
+      ],
+      [
+        "i",
+        "z"
+      ],
+      [
+        "i",
+        "mple"
+      ],
+      [
+        "k",
+        "en"
+      ],
+      [
+        "m",
+        "o"
+      ],
+      [
+        "o",
+        "f"
+      ],
+      [
+        "o",
+        "m"
+      ],
+      [
+        "o",
+        "ken"
+      ],
+      [
+        "r",
+        "ain"
+      ],
+      [
+        "s",
+        "cr"
+      ],
+      [
+        "s",
+        "imple"
+      ],
+      [
+        "t",
+        "his"
+      ],
+      [
+        "t",
+        "oken"
+      ],
+      [
+        "t",
+        "rain"
+      ],
+      [
+        "w",
+        "e"
+      ],
+      [
+        "at",
+        "ch"
+      ],
+      [
+        "at",
+        "io"
+      ],
+      [
+        "in",
+        "g"
+      ],
+      [
+        "ar",
+        "e"
+      ],
+      [
+        "de",
+        "l"
+      ],
+      [
+        "ex",
+        "ample"
+      ],
+      [
+        "fr",
+        "om"
+      ],
+      [
+        "iz",
+        "atio"
+      ],
+      [
+        "mo",
+        "del"
+      ],
+      [
+        "scr",
+        "atch"
+      ],
+      [
+        "token",
+        "izatio"
+      ],
+      [
+        "train",
+        "ing"
+      ],
+      [
+        "tokenizatio",
+        "n"
+      ]
+    ]
+  }
+}
